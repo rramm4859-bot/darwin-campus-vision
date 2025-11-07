@@ -7,18 +7,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <GraduationCap className="w-6 h-6 text-primary-foreground" />
-              </div>
-              <div>
-                <h3 className="text-lg font-bold text-foreground">Darwin</h3>
-                <p className="text-xs text-muted-foreground">Engineering College</p>
-              </div>
+            <div className="mb-4">
+              <h3 className="text-2xl font-bold text-foreground mb-2">Madras Engineering College</h3>
+              <p className="text-sm text-muted-foreground">
+                A Launchpad College for Technocrats to Learn, Build & Excel.
+              </p>
             </div>
-            <p className="text-sm text-muted-foreground mb-4">
-              Shaping tomorrow's engineers with excellence in education and innovation.
-            </p>
             <div className="flex gap-3">
               <a href="#" className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
                 <Facebook className="w-4 h-4 text-primary" />
@@ -59,27 +53,26 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="text-sm font-semibold text-foreground mb-4">Contact Us</h4>
+            <h4 className="text-sm font-semibold text-foreground mb-4">Chennai Campus</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-sm text-muted-foreground">Darwin Engineering College, Hyderabad, India</span>
+                <span className="text-sm text-muted-foreground">Tambaram Road, Vellarai (Chennai Metropolitan Area), Tamil Nadu - 602105, India</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                <span className="text-sm text-muted-foreground">+91 123 456 7890</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-primary flex-shrink-0" />
-                <span className="text-sm text-muted-foreground">info@darwin.edu.in</span>
+                <span className="text-sm text-muted-foreground">+91 70020 80020</span>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="pt-8 border-t border-border text-center">
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Darwin Engineering College. All rights reserved.
+        <div className="pt-8 border-t border-border">
+          <p className="text-sm text-muted-foreground text-center mb-2">
+            © Madras Engineering College. All Rights Reserved | Mandatory Disclosure
+          </p>
+          <p className="text-xs text-muted-foreground text-center">
+            Affiliated to Anna University, Chennai
           </p>
         </div>
       </div>

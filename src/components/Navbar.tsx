@@ -22,8 +22,8 @@ const Navbar = () => {
               <GraduationCap className="w-6 h-6 md:w-7 md:h-7 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-lg md:text-xl font-bold text-foreground">Darwin</h1>
-              <p className="text-xs text-muted-foreground">Engineering College</p>
+              <h1 className="text-lg md:text-xl font-bold text-foreground">MEC</h1>
+              <p className="text-xs text-muted-foreground">Madras Engineering</p>
             </div>
           </div>
 
